@@ -79,7 +79,6 @@ body{
 body nav{
 	margin-bottom: 2%;
 	width: 100%;
-	border:1px solid black;
 	display:flex;
 	justify-content: space-around;
 }
@@ -125,13 +124,15 @@ h5{
 /* having to change this to flex--------------- Going to add inline block to all divs */
 .feats{
 	display: flex;
-	border:1px solid blue;
 	flex-direction: column;
 	padding: 5%;
+	border-top: 1px solid black;
 }
 
 .vices{	
 	display: flex;
+	flex-direction: column;
+	padding: 5%;
 }
 
 /* Change to flex-----------------------make sure that lower image fits the whole section of the screen and make it centered */
@@ -139,8 +140,11 @@ figure{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border:1px solid black;
 
+}
+.middle-img{
+	width: 87%;
+	
 }
 
 /* add the lines to the begining of the paragraphs and before the footer */
@@ -149,7 +153,6 @@ figure{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 1px solid black;
 	padding: 5% 0 3%;
 }
 
@@ -199,5 +202,8 @@ nav{
 	display:flex;
 	padding: 2%;
 }
-
-
+/* and then make the other section below that have 3 columns */
+.column{
+	display:flex;
+	padding:1%;
+}
