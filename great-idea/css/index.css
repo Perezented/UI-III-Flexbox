@@ -237,16 +237,31 @@ header{
 	padding: 5%;
 
 }
+
+/* need to get the 6 boxes in */
 .boxes{
 	border:1px solid black;
 	display:flex;
 	flex-direction: column;
 
 }
+/* making the list for the header */
+ul{
+	list-style-type: disc;
+	padding: 2%;
+}
 
-
-
-
+/* attempt to get the photo on one side and the facts about our service on the left */
+.productfoot{
+	display: flex;
+	border:2px solid green;
+	justify-content: center;
+}
+.productbox{
+	display:flex;
+	flex-direction: column;
+	border:2px solid red;
+}
 
 
 
