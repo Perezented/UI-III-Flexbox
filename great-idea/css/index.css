@@ -221,6 +221,7 @@ header{
 	display: flex;
 	justify-content: center;
 	border:1px solid black;
+	margin-top: 5%;
 	
 	
 }
@@ -228,6 +229,19 @@ header{
 .services-header-img{
 	width: 90%;
 	
+}
+.serve{
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+
+}
+.boxes{
+	border:1px solid black;
+	display:flex;
+	flex-direction: column;
+
 }
 
 
