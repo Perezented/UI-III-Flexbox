@@ -243,6 +243,10 @@ header{
 	border:1px solid black;
 	display:flex;
 	flex-direction: column;
+	width: 44%;
+	padding: 5% 5% 2%;
+	margin: 3%
+
 
 }
 /* making the list for the header */
@@ -262,7 +266,8 @@ ul{
 	flex-direction: column;
 	border:2px solid red;
 	width: 45%;
-	padding: 5% 5% 0 1%;
+	padding: 4% 5% 0 0;
+	margin-left: -3%;
 
 }
 
@@ -270,14 +275,28 @@ ul{
 
 nope. didnt work.*/
 
+/* fix button size */
+.boxes button{
+	border:1px solid black;
+	background-color: white;
+	padding: 1% 2%;
+	width: 30%;
+	border-radius: 6%;
+	margin-top: 7%;
+}
 
+/* making the titles a little bigger */
+h3{
+	font-size: 125%;
+}
 
+/* get all the boxes lined up in a row fingers crossed haha */
+.bigbox{
+	display: flex;
+	flex-wrap: wrap;
+}
 
-
-
-
-
-
+/* going back up into the code to make the boxes have padding and margins */
 
 
 
