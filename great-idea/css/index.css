@@ -63,4 +63,141 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------! */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Added margin and padding to everything, saw Brit do it on lecture */
+
+/* I want to get the nav and the great idea logo to sort right and turn it grey, possibly add some padding too. */
+body{
+	padding-top: 2%;
+	
+}
+body nav{
+	margin-bottom: 2%;
+	width: 100%;
+	border:1px solid black;
+	display:flex;
+	justify-content: space-around;
+}
+.logo{
+	margin-top: 2%;
+}
+nav a{	
+	margin: 3% 0 1%;
+	color: gray;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* I want to make the h1 bigger, looks like I will need to get a section for h1 and the circle photo.*/
+/* a button will need to be added too for get started and place it below h1 */
+/* ---adding glex to both the button, h1 and then to those and the picture on .underline */
+.headin{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 10%;
+}
+
+h1{
+	font-size: 400%;
+}
+.headin button{
+	background-color: white;
+	border: 1px solid black;
+	}
+
+
+/* Make the headings bigger*/
+
+h2{
+	font-size: 125%;
+}
+h5{
+	padding: 3% 0 1%;
+	font-size: 125%;
+}
+
+/* having to change this to flex--------------- Going to add inline block to all divs */
+.feats{
+	display: flex;
+	border:1px solid blue;
+	flex-direction: column;
+	padding: 5%;
+}
+
+.vices{	
+	display: flex;
+}
+
+/* Change to flex-----------------------make sure that lower image fits the whole section of the screen and make it centered */
+figure{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid black;
+
+}
+
+/* add the lines to the begining of the paragraphs and before the footer */
+
+.underline{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding: 5% 0 3%;
+}
+
+.overline{
+	border-top: 1px solid black;
+	margin: 0 5%
+}
+
+/* fix the footer so it is spaced correctly and copyright is centered and has padding/ margins */
+
+
+h6{
+	
+	font-weight: bold;
+	text-align: center;
+	padding: 5% 0 8%
+}
+
+/* going to add a hover feature to the button. Its not lively when i hover over it. my brain thought something was wrong with the button. its there, just not alive yet. */
+
+button:hover{
+	background-color: black;
+	color:white;
+	
+}
+
+
+/* extra stuff */
+
+
+nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: white;
+	z-index: 99;
+}
+
+/* needing to control the max size of the cirlce image. */
+.underline img{
+	padding: 6%;
+}
+
+
+/* need to make the features and about sit side by side */
+.sitaside{
+	display:flex;
+	padding: 2%;
+}
+
+
