@@ -248,21 +248,27 @@ header{
 /* making the list for the header */
 ul{
 	list-style-type: disc;
-	padding: 2%;
+	padding: 4%;
 }
 
 /* attempt to get the photo on one side and the facts about our service on the left */
 .productfoot{
 	display: flex;
 	border:2px solid green;
-	justify-content: center;
+	justify-content: space-around;
 }
 .productbox{
 	display:flex;
 	flex-direction: column;
 	border:2px solid red;
+	width: 45%;
+	padding: 5% 5% 0 1%;
+
 }
 
+/* need to make the image for the footer part be a little bigger possibly 
+
+nope. didnt work.*/
 
 
 
