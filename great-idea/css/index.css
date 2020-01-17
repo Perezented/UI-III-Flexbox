@@ -105,7 +105,11 @@ nav a{
 h1{
 	font-size: 400%;
 }
-.headin button{
+button{
+	border-radius: 2px;
+	padding:3% 2%;
+	margin: 10% 0 0 25%;
+	width: 50%;
 	background-color: white;
 	border: 1px solid black;
 	}
@@ -173,11 +177,6 @@ h6{
 
 /* going to add a hover feature to the button. Its not lively when i hover over it. my brain thought something was wrong with the button. its there, just not alive yet. */
 
-button:hover{
-	background-color: black;
-	color:white;
-	
-}
 
 
 /* extra stuff */
@@ -313,8 +312,12 @@ footer{
 
 
 
-
-
+/* moved the button hover to the bottom of css. the buttons were not highlighting black when i hover over them on the second page, products */
+button:hover{
+	background-color: black;
+	color:white;	
+	cursor: pointer;
+}
 
 
 
