@@ -242,14 +242,15 @@ ul{
 /* attempt to get the photo on one side and the facts about our service on the left */
 .productfoot{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding:4%;
+	margin:1%;
 }
 .productbox{
 	display:flex;
 	flex-direction: column;
 	width: 45%;
 	padding: 4% 5% 0 0;
-	margin-left: -3%;
 
 }
 
@@ -300,17 +301,15 @@ h3{
 /* going back up into the code to make the boxes have padding and margins */
 
 /* adding padding to page on left and right to make the lines */
-
+ 
 
 /* need to space footer now */
 footer{
 	margin-top: 3%;
 }
-
-
-
-
-
+.services-info-img{
+	width: 100%;
+}
 
 
 
